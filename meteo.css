@@ -1,0 +1,61 @@
+@font-face {
+    font-family: "nunito";
+    src: url(../font/Nunito-VariableFont_wght.ttf);
+}
+body{
+        display: flex;
+        flex-direction: column;
+        font-family: "nunito";
+}
+p{
+    margin: 0;
+}
+em, article p:nth-child(4){
+    color: rgb(157, 155, 155);
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+    flex: 1;
+    display: block;
+}
+a{
+    text-decoration: none;
+}
+.jour{
+    font-weight: 900;
+}
+#bandeau img{
+    width: 74px;
+    float: left;
+}
+article{
+    display: flex;
+    flex: 1;
+}
+article p {
+    flex: 1;
+    text-align: center;
+}
+@media screen and (min-width:1200px){
+    hr{
+        display: none;
+    }
+    #semaine{
+        display: flex;
+    }
+    .jour{
+        flex: 1
+    }
+    article{
+        flex: 1;
+        flex-direction: column;
+    }
+    article img {
+        width: 74px;
+        display: flex;
+        justify-items: center;
+        margin: auto;
+    }
+}
