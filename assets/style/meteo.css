@@ -3,22 +3,26 @@
     src: url(../font/Nunito-VariableFont_wght.ttf);
 }
 body{
-        display: flex;
-        flex-direction: column;
-        font-family: "nunito";
+
+    font-family: "nunito";
 }
 p{
     margin: 0;
 }
-em, article p:nth-child(4){
-    color: rgb(157, 155, 155);
-}
 ul{
     list-style: none;
-    margin: 0;
-    padding: 0; 
-    flex: 1;
-    display: block;
+    margin-left: 15%;
+}
+li{
+    width: 30%;
+    display: inline-block;
+}
+article{
+    display: inline-block;
+    margin: 0 3%;
+}
+article p {
+    text-align: center;
 }
 a{
     text-decoration: none;
@@ -26,36 +30,73 @@ a{
 .jour{
     font-weight: 900;
 }
+em, .pollen{
+    color: rgb(157, 155, 155);
+}
+#bandeau{
+    margin-bottom: 20px;
+}
+#infos{
+    float: right;
+}
+#temperature{
+    font-weight: bold;
+    font-size: 40px;
+}
+#bandeau{
+    display: inline-block;
+    margin-right: 30px;
+}
+#fahrenheit{
+    font-size: small;
+    vertical-align: top;
+}
 #bandeau img{
     width: 74px;
     float: left;
+    vertical-align: middle;
 }
-article{
-    display: flex;
-    flex: 1;
+#bandeau p{
+    float: left;
 }
-article p {
-    flex: 1;
-    text-align: center;
+@media screen and (max-width:1200px){
+    #semaine article{
+        display: inline-block;
+        width: 100%;
+        margin: auto;
+    }
+    #semaine article p {
+        display: inline-block;
+        width: 25%;
+        height: 100%;
+    }
 }
+
 @media screen and (min-width:1200px){
     hr{
         display: none;
     }
-    #semaine{
-        display: flex;
-    }
-    .jour{
-        flex: 1
-    }
-    article{
-        flex: 1;
-        flex-direction: column;
+    section article p{
+        margin-right:6%
     }
     article img {
         width: 74px;
-        display: flex;
-        justify-items: center;
+
         margin: auto;
+    }
+    .jour{
+        width: 15px;
+    }
+    #bandeau{
+        display: inline-block;
+        margin-right: 300px;
+    }
+    #semaine{
+        text-align: center;
+        width: 85%;
+        margin: auto;
+    }
+    #semaine article:last-child{
+        margin-right:  0;
     }
 }

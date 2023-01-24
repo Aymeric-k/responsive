@@ -1,0 +1,61 @@
+
+body{
+    display: table;
+}
+h1{
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+header{
+    height: 150px;
+    width:80%;
+    margin : 40px auto;
+}
+ul{
+    list-style: none;
+    margin-left: 15%;
+}
+li{
+    width: 30%;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 15px;
+    color: black;
+    padding: 5px;
+
+}
+section{
+    margin-top: 300px; 
+}
+article{
+    background-color: lightgray;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    float: left;  
+}
+p{
+    text-align: justify;
+    margin: 0;
+}
+header div{
+    text-align: center;
+}
+article img {
+    margin:6px;
+    width: 50px;
+    height: 50px;
+}
+
+@media screen and (min-width : 700px) {
+    article:nth-child(3){
+       text-align: center;
+    }
+}
+#nothamburger a{
+    background-color: lightgray;
+}
