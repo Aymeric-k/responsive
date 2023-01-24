@@ -36,9 +36,7 @@ a{
 em, .pollen{
     color: rgb(157, 155, 155);
 }
-#bandeau{
-    margin-bottom: 20px;
-}
+
 #infos{
     float: right;
 }
@@ -49,6 +47,7 @@ em, .pollen{
 #bandeau{
     display: inline-block;
     margin-right: 30px;
+    margin-bottom: 20px;
 }
 #fahrenheit{
     font-size: small;
