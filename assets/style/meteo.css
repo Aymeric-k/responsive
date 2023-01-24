@@ -24,6 +24,9 @@ article{
 article p {
     text-align: center;
 }
+article img{
+    vertical-align: middle;
+}
 a{
     text-decoration: none;
 }
@@ -54,7 +57,6 @@ em, .pollen{
 #bandeau img{
     width: 74px;
     float: left;
-    vertical-align: middle;
 }
 #bandeau p{
     float: left;
