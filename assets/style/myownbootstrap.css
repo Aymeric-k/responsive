@@ -144,10 +144,13 @@
     .col-sm-12 {
         width: calc(1200%/12);
     }
-    #hamburger,#menu,#iconphone{
+    #hamburger,#menu{
         display: none;
     }
     #nothamburger{
+        visibility: visible;
+    }
+    #iconphone{
         visibility: visible;
     }
 }
@@ -206,7 +209,6 @@
         right:0px;
         z-index:5;
     }    
-
     #hamburger:hover ~ #menu{
         visibility:visible ;
     }
