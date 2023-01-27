@@ -9,7 +9,11 @@
     min-height: 1px;
     float: left;
 }
-
+.row{
+    width: 100%;
+    margin-bottom:40px;
+    
+}
 @media screen and (min-width : 700px) {
     .container-fluid {
         width: 100%;
