@@ -59,7 +59,8 @@
     #iconphone{
         visibility: hidden;
     }
-}@media screen and (min-width : 1200px) {
+}
+@media screen and (min-width : 1200px) {
     .container-fluid {
         width:90%;
         margin: auto;
@@ -192,6 +193,7 @@
     .col-xs-12 {
         width: calc(1200%/12);
     }
+    /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Menu Hamburger ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
     #nothamburger{
         visibility: hidden;
     }
