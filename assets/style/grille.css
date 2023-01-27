@@ -1,13 +1,14 @@
 
-body{
+main{
     display: table;
 }
 h1{
     text-align: center;
     color: black;
-    padding-top: 50px;
+    
 }
 header{
+    vertical-align: middle;
     height: 150px;
     width:80%;
     margin : 40px auto;
@@ -38,12 +39,17 @@ article{
     border-radius: 15px;
     float: left;  
 }
+
+article img{
+    float: left;
+}
 p{
     text-align: justify;
     margin: 0;
 }
 header div{
     text-align: center;
+    width: 100%;
 }
 article img {
     margin:6px;
