@@ -4,8 +4,7 @@ main{
 }
 h1{
     text-align: center;
-    color: black;
-    
+    color: black; 
 }
 header{
     vertical-align: middle;
@@ -39,7 +38,6 @@ article{
     border-radius: 15px;
     float: left;  
 }
-
 article img{
     float: left;
 }
@@ -56,7 +54,6 @@ article img {
     width: 50px;
     height: 50px;
 }
-
 @media screen and (min-width : 700px) {
     article:nth-child(3){
        text-align: center;
@@ -64,4 +61,9 @@ article img {
 }
 #nothamburger a{
     background-color: lightgray;
+}
+#iconphone{
+    position: absolute;
+    top:0px;
+    left:0px;
 }
